@@ -1,0 +1,10 @@
+fazer site de valorant
+colocar video de background com som
+
+colocar a logo na header e fazer menu de navegação
+
+no corpo da pagina vamos fazer um grid hoover com os personagens (pegar fotos) dando introdução alore deles a quem eles sao
+e um grid hoover sobre as armas (pegar imagens das armas)
+e de alguns mapas tambem (pegar fotos dos mapas)
+fazer uma mini loja diaria 
+colocar um botao de chamada ''download''
