@@ -4,31 +4,62 @@
     box-sizing: border-box;
 }
 
-
 body,  html {
-   position: relative;
-   width: 100%;
-   height: 100vh;
-   overflow-x: hidden;
-}
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+ }
+ 
+ h1 {
+     font-size: 40px;
+     font-weight: 700;
+     color: #e7eff5;
+     text-align: center;
+     margin-top: 20px;
+ }
+ 
+ h2 {
+     font-size: 24px;
+     font-weight: 500;
+     color: #ffffff;
+     text-align: center;
+     margin-top: 20px;
+     background-color: #050101;
+ }
 
-h1 {
-    font-size: 40px;
-    font-weight: 700;
-    color: #e7eff5;
-    text-align: center;
-    margin-top: 20px;
-}
+.agents {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: center;
+     height: 100vh;
+    background: #0c141a;
+     color: #050101;
+     border-radius: 20%;
+ }
 
-h2 {
-    font-size: 24px;
-    font-weight: 700;
-    color: #e7eff5;
-    text-align: center;
-    margin-top: 20px;
-}
+ .mapas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: center;
+    height: 100vh;
+    background: #0c141a;
+    color: #050101;
+    border-radius: 20%;
+ }
 
-
+ .content {
+     display: flex;
+     justify-content: flex;
+     align-items: center;
+     flex-direction: column;
+     width: 100%;
+     height: 100vh;
+   background: #0c141a;
+     color: #050101;
+ }
 
 
 .video {
@@ -38,7 +69,11 @@ h2 {
     background: #0c141a;
     width: 100%;
     height: 100vh;
+    z-index: -1;
 }
+
+
+
 
 .p {
     font-size: 16px;
@@ -47,15 +82,18 @@ h2 {
     margin-top: 20px;
 }
 
+
+
 .menu {
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    width: 100%;
+    width: 80%;
     height: 80vh;
     display: flex;
     justify-content: space-between;
+    align-items: top-center;
   
 }
 
@@ -92,13 +130,8 @@ h2 {
 }
 
 .btn:hover {
-    background: #000000;
-    color: #fff;
-    transition: 0.5s;
-}
-.btn:active {
-    background: #000000;
-    color: #fff;
+    background: #0b010c;
+    color: #e7eff5;
     transition: 0.5s;
 }
 
@@ -114,9 +147,6 @@ h2 {
     display: flex;
     list-style: none;
     margin-right: 60px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    align-items: center;
 }
 
 
@@ -127,7 +157,7 @@ footer {
     width: 100%;
     height: 100px;
     background-color: #0c141a;
-    color: #e7eff5;
+    color: #01080e;
     text-align: center;
     padding: 20px;
 }
